@@ -31,7 +31,7 @@ app.get('/',(req,res) => {
 })
 
 
-//Controller ROUTES
+//Controller ROUTESs
 const booksController = require('./books-controller.js')
 app.use('/books',booksController)
 
